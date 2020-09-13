@@ -1,0 +1,25 @@
+#darkBody {
+    color: #ffffff;
+    padding-top: 7px;
+}
+
+#lightBody {
+    padding-top: 7px;
+}
+
+.name {
+    font-family: 'Courgette';
+    font-size: 35px;
+}
+
+#desc {
+    margin-top: 5px;
+    background-color: beige;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+#resume {
+    margin-top: 5px;
+    background-color:beige;
+}

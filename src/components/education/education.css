@@ -1,0 +1,16 @@
+#darkBody {
+    color: #ffffff;
+}
+
+.edu-list {
+    list-style-type: none;
+}
+
+#edu {
+    margin-left: 0px !important;
+}
+
+#level {
+    font-family: 'Sriracha';
+    font-size: 20px;
+}

@@ -5,6 +5,7 @@ import { Icon } from "office-ui-fabric-react/lib/Icon";
 
 const MailIcon = () => <Icon iconName="Mail" className="ms-IconMail" />;
 const PhoneIcon = () => <Icon iconName="CellPhone" className="ms-IconPhone" />;
+const LocationIcon = () => <Icon iconName="POISolid" className="ms-IconLocation" />;
 
 const SideNav = () => {
   return (
@@ -30,19 +31,30 @@ const SideNav = () => {
               <PhoneIcon /> +91-7986671574
             </span>
             <br />
+            <span>
+              <LocationIcon /> Mumbai, MH, India
+            </span>
           </div>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link id="nav-item" href="/">About Me</Nav.Link>
+          <Nav.Link id="nav-item" href="/">
+            About Me
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link id="nav-item" href="/work-exp">Work Experience</Nav.Link>
+          <Nav.Link id="nav-item" href="/work-exp">
+            Work Experience
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link id="nav-item" href="/education">Education</Nav.Link>
+          <Nav.Link id="nav-item" href="/education">
+            Education
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link id="nav-item" href="/skills">Skills and Certifications</Nav.Link>
+          <Nav.Link id="nav-item" href="/skills">
+            Skills and Certifications
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </div>

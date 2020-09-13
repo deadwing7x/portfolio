@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/home";
+import Home from "./components/home/home";
 import { Spinner, SpinnerSize } from "office-ui-fabric-react/lib/Spinner";
 import { IStackProps, Stack } from "office-ui-fabric-react/lib/Stack";
-import { initializeIcons } from "@uifabric/icons";
 import { BrowserRouter, Route } from "react-router-dom";
 import SideNav from "./components/sidenav/sidenav";
 import Header from "./components/header";
@@ -11,7 +10,7 @@ import Experience from "./components/work-exp/experience";
 import Switch from "react-bootstrap/esm/Switch";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
-
+import { initializeIcons } from "@uifabric/icons";
 initializeIcons();
 
 export default class App extends React.Component<{}, { loading: boolean }> {
