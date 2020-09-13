@@ -1,0 +1,14 @@
+#profilePicture {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#contactInfo {
+    margin-left: 15px;
+}
+
+#nav-item {
+    color: #00477d;
+}
