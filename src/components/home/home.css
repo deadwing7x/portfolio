@@ -1,25 +1,36 @@
 #darkBody {
-    color: #ffffff;
-    padding-top: 7px;
+  color: #ffffff;
+  padding-top: 7px;
 }
 
 #lightBody {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 .name {
-    font-family: 'Courgette';
-    font-size: 35px;
+  font-family: "Courgette";
+  font-size: 35px;
+}
+
+#app-body {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #desc {
-    margin-top: 5px;
-    background-color: beige;
-    font-family: 'Dancing Script';
-    font-size: 30px;
+  margin-top: 5px;
+  background-color: beige;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 
 #resume {
-    margin-top: 5px;
-    background-color:beige;
+  margin-top: 5px;
+  background-color: beige;
+}
+
+#links {
+  margin-top: 5px;
+  background-color: beige;
 }

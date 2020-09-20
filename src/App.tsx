@@ -29,7 +29,7 @@ export default class App extends React.Component<{}, { loading: boolean }> {
 
   loadApp() {
     return (
-      <div className="home">
+      <div className="container-fluid">
         <Header></Header>
         <div>
           <div className="row">

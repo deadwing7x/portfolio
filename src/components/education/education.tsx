@@ -3,7 +3,7 @@ import "./education.css";
 
 const Education = () => {
   return (
-    <div className="row">
+    <div id="app-body" className="row">
       <div className="bg-dark col-sm-6 col-md-5">
         <div id="darkBody">
           <h3>Education Level</h3>

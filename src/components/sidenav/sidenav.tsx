@@ -6,11 +6,12 @@ import { Icon } from "office-ui-fabric-react/lib/Icon";
 const MailIcon = () => <Icon iconName="Mail" className="ms-IconMail" />;
 const PhoneIcon = () => <Icon iconName="CellPhone" className="ms-IconPhone" />;
 const LocationIcon = () => <Icon iconName="POISolid" className="ms-IconLocation" />;
+const WorkIcon = () => <Icon iconName="Work" className="ms-IconWork" />;
 
 const SideNav = () => {
   return (
     <div>
-      <Nav className="d-none d-md-block bg-light sidebar">
+      <Nav className="d-none d-md-block bg-light sidebar" id="sideNav">
         <div className="sidebar-sticky"></div>
         <Nav.Item>
           <Image
@@ -23,12 +24,16 @@ const SideNav = () => {
           <div id="contactInfo">
             <br />
             <h5>Anubhav Sarkar</h5>
-            <span>
+            <span title="Email">
               <MailIcon /> anubhavsarkar7@gmail.com
             </span>
             <br />
-            <span>
+            <span title="Mobile Phone">
               <PhoneIcon /> +91-7986671574
+            </span>
+            <br />
+            <span>
+              <WorkIcon /> MAQ Software
             </span>
             <br />
             <span>
@@ -36,23 +41,23 @@ const SideNav = () => {
             </span>
           </div>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link id="nav-item" href="/">
+        <Nav.Item title="About Me">
+          <Nav.Link className="nav-item" href="/">
             About Me
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link id="nav-item" href="/work-exp">
+        <Nav.Item title="Work Experience">
+          <Nav.Link className="nav-item" href="/work-exp">
             Work Experience
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link id="nav-item" href="/education">
+        <Nav.Item title="Education">
+          <Nav.Link className="nav-item" href="/education">
             Education
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link id="nav-item" href="/skills">
+        <Nav.Item title="Skills and Certifications">
+          <Nav.Link className="nav-item" href="/skills">
             Skills and Certifications
           </Nav.Link>
         </Nav.Item>
