@@ -3,3 +3,20 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.skillsBar {
+  list-style-type: none;
+}
+
+#skillsLevel {
+  padding-top: 10px;
+}
+
+#cert-table {
+  margin-top: 10px;
+}
+
+.cert-link {
+  text-decoration: none !important;
+  color: white;
+}

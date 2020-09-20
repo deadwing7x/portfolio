@@ -52,7 +52,7 @@ export default class Home extends React.Component {
           </div>
         </div>
         <div id="links" className="col-md-12">
-          <h4>LinkedIn and Github profile: </h4>
+          <h4>LinkedIn and Github profiles: </h4>
           <a
             title="LinkedIn Profile"
             href="https://www.linkedin.com/in/anubhav-sarkar-52965786/"

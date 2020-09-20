@@ -18,6 +18,7 @@ const SideNav = () => {
             id="profilePicture"
             src={require("../../profile.jpg")}
             thumbnail
+            alt="Profile Picture"
           />
         </Nav.Item>
         <Nav.Item>
@@ -59,6 +60,11 @@ const SideNav = () => {
         <Nav.Item title="Skills and Certifications">
           <Nav.Link className="nav-item" href="/skills">
             Skills and Certifications
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item title="Projects">
+          <Nav.Link className="nav-item" href="/projects">
+            Projects
           </Nav.Link>
         </Nav.Item>
       </Nav>
