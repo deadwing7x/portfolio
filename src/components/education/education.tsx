@@ -10,7 +10,9 @@ const Education = () => {
         </div>
       </div>
       <div className="bg-light col-sm-6 col-md-7">
-        <h3>Institution</h3>
+        <div id="lightBody">
+          <h3>Institution</h3>
+        </div>
       </div>
       <div className="bg-dark col-sm-6 col-md-5">
         <div id="darkBody">

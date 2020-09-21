@@ -20,3 +20,7 @@
   text-decoration: none !important;
   color: white;
 }
+
+#lightBody {
+  justify-content: center;
+}
