@@ -11,6 +11,7 @@ import Switch from "react-bootstrap/esm/Switch";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import { initializeIcons } from "@uifabric/icons";
+import { Navbar } from "react-bootstrap";
 initializeIcons();
 
 export default class App extends React.Component<{}, { loading: boolean }> {
@@ -50,6 +51,12 @@ export default class App extends React.Component<{}, { loading: boolean }> {
             </div>
           </div>
         </div>
+        <br />
+        <Navbar fixed="bottom" >
+        <div>
+          Copyright &#169; 2020 Anubhav Sarkar
+        </div>
+        </Navbar>
       </div>
     );
   }
