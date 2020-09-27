@@ -53,7 +53,7 @@ export default class App extends React.Component<{}, { loading: boolean }> {
         </div>
         <br />
         <Navbar>
-        <div style={{color: 'white'}}>
+        <div style={{color: 'white', textAlign: 'center'}}>
           Copyright &#169; 2020 Anubhav Sarkar
         </div>
         </Navbar>
