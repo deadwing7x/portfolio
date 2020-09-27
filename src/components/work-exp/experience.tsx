@@ -4,7 +4,7 @@ import "./experience.css";
 const Experience = () => {
   return (
     <div id="app-body" className="row">
-      <div className="bg-dark col-sm-3 col-md-3">
+      <div className="bg-dark col-sm-3 col-md-2">
         <div id="darkBody">
           <h3>Company</h3>
         </div>
@@ -14,12 +14,12 @@ const Experience = () => {
           <h3>Designation</h3>
         </div>
       </div>
-      <div className="bg-light col-sm-4 col-md-6">
+      <div className="bg-light col-sm-4 col-md-7">
         <div id="lightBody">
           <h3>Experience</h3>
         </div>
       </div>
-      <div className="bg-dark col-sm-6 col-md-3">
+      <div className="bg-dark col-sm-6 col-md-2">
         <div id="darkBody">
           <li className="work-list">
             <h6>MAQ Software</h6>
@@ -33,7 +33,7 @@ const Experience = () => {
           </li>
         </div>
       </div>
-      <div className="bg-light col-sm-6 col-md-6">
+      <div className="bg-light col-sm-6 col-md-7">
         <div id="lightBody">
           <li>
             <b>Client - Project:</b> Collaborated with other developers to develop new
