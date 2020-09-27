@@ -2,37 +2,24 @@ import React from "react";
 import "./skills.css";
 import { ProgressBar, Table } from "react-bootstrap";
 
-const intervalDelay = 10;
-const intervalIncrement = 0.01;
-
 const Skills = () => {
-  const [percentComplete, setPercentComplete] = React.useState(0);
-
-  React.useEffect(() => {
-    const id = setInterval(() => {
-      setPercentComplete((intervalIncrement + percentComplete) % 1);
-    }, intervalDelay);
-    return () => {
-      clearInterval(id);
-    };
-  });
 
   const skillsAndProficiency: any[] = [
     {
       skill: "C++",
-      proficiency: 60,
+      proficiency: 70,
     },
     {
       skill: "C#",
-      proficiency: 55,
+      proficiency: 65,
     },
     {
       skill: "Angular",
-      proficiency: 55,
+      proficiency: 60,
     },
     {
       skill: "React",
-      proficiency: 50,
+      proficiency: 55,
     },
     {
       skill: "TypeScript",
@@ -48,11 +35,11 @@ const Skills = () => {
     },
     {
       skill: "CSS",
-      proficiency: 50,
+      proficiency: 55,
     },
     {
       skill: "Microsoft Azure",
-      proficiency: 45,
+      proficiency: 50,
     },
     {
       skill: "SQL Server",

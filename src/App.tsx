@@ -11,7 +11,6 @@ import Switch from "react-bootstrap/esm/Switch";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import { initializeIcons } from "@uifabric/icons";
-import Projects from "./components/projects/projects";
 initializeIcons();
 
 export default class App extends React.Component<{}, { loading: boolean }> {
@@ -34,10 +33,10 @@ export default class App extends React.Component<{}, { loading: boolean }> {
         <Header></Header>
         <div>
           <div className="row">
-            <div className="col-sm-6 col-md-4">
+            <div className="col-xs-6 col-sm-6 col-md-3">
               <SideNav></SideNav>
             </div>
-            <div className="col-sm-6 col-md-8">
+            <div className="col-xs-6 col-sm-6 col-md-9">
               <BrowserRouter>
                 <Switch>
                   <div id="home">
@@ -45,7 +44,6 @@ export default class App extends React.Component<{}, { loading: boolean }> {
                     <Route path="/work-exp" component={Experience} />
                     <Route path="/education" component={Education} />
                     <Route path="/skills" component={Skills} />
-                    <Route path="/projects" component={Projects} />
                   </div>
                 </Switch>
               </BrowserRouter>

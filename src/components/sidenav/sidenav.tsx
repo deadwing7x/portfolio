@@ -42,31 +42,6 @@ const SideNav = () => {
             </span>
           </div>
         </Nav.Item>
-        <Nav.Item title="About Me">
-          <Nav.Link className="nav-item" href="/">
-            About Me
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item title="Work Experience">
-          <Nav.Link className="nav-item" href="/work-exp">
-            Work Experience
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item title="Education">
-          <Nav.Link className="nav-item" href="/education">
-            Education
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item title="Skills and Certifications">
-          <Nav.Link className="nav-item" href="/skills">
-            Skills and Certifications
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item title="Projects">
-          <Nav.Link className="nav-item" href="/projects">
-            Projects
-          </Nav.Link>
-        </Nav.Item>
       </Nav>
     </div>
   );

@@ -24,12 +24,12 @@ export default class Home extends React.Component {
   render() {
     return (
       <div id="app-body" className="row">
-        <div className="bg-dark col-sm-6 col-md-5">
+        <div className="bg-dark col-sm-6 col-md-4">
           <div id="darkBody">
             <p className="name">Anubhav</p>
           </div>
         </div>
-        <div className="bg-light col-sm-6 col-md-7">
+        <div className="bg-light col-sm-6 col-md-8">
           <div id="lightBody">
             <p className="name">Sarkar</p>
           </div>

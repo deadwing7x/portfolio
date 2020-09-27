@@ -11,3 +11,7 @@
 #lightBody {
   justify-content: center;
 }
+
+.work-list {
+  list-style-type: none;
+}
