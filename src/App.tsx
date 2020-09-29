@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { ReactComponent as ReactLogo } from "../src/logo.svg";
 import Home from "./components/home/home";
 import { Spinner, SpinnerSize } from "office-ui-fabric-react/lib/Spinner";
 import { IStackProps, Stack } from "office-ui-fabric-react/lib/Stack";
@@ -52,10 +53,13 @@ export default class App extends React.Component<{}, { loading: boolean }> {
           </div>
         </div>
         <br />
-        <Navbar style={{justifyContent: 'center'}}>
-        <div style={{color: 'white'}}>
-          Copyright &#169; 2020 Anubhav Sarkar
-        </div>
+        <Navbar style={{ justifyContent: "center" }}>
+          <div style={{ color: "white" }}>
+            Built with React<ReactLogo style={{height: '25px', width: '25px'}} />
+          </div>
+          <div style={{ color: "white" }}>
+            Copyright &#169; 2020 Anubhav Sarkar
+          </div>
         </Navbar>
       </div>
     );

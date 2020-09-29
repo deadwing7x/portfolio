@@ -1,80 +1,44 @@
 import React from "react";
 import "./skills.css";
-import { ProgressBar, Table } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 
 const Skills = () => {
 
   const skillsAndProficiency: any[] = [
     {
-      skill: "C++",
-      proficiency: 70,
+      skill: "C++"
     },
     {
-      skill: "C#",
-      proficiency: 65,
+      skill: "C#"
     },
     {
-      skill: "Angular",
-      proficiency: 60,
+      skill: "Angular"
     },
     {
-      skill: "React",
-      proficiency: 55,
+      skill: "React"
     },
     {
-      skill: "TypeScript",
-      proficiency: 60,
+      skill: "TypeScript"
     },
     {
-      skill: "JavaScript",
-      proficiency: 60,
+      skill: "JavaScript"
     },
     {
-      skill: "HTML",
-      proficiency: 60,
+      skill: "HTML"
     },
     {
-      skill: "CSS",
-      proficiency: 55,
+      skill: "CSS"
     },
     {
-      skill: "Microsoft Azure",
-      proficiency: 50,
+      skill: "Microsoft Azure"
     },
     {
-      skill: "SQL Server",
-      proficiency: 50,
+      skill: "SQL Server"
     },
   ];
 
   return (
     <div id="app-body" className="row">
-      <div className="bg-dark col-sm-6 col-md-5">
-        <div id="darkBody">
-          <h3>Skill</h3>
-        </div>
-      </div>
-      <div className="bg-light col-sm-6 col-md-7">
-        <div id="lightBody">
-          <h3>Proficiency</h3>
-        </div>
-      </div>
-      <div className="bg-dark col-sm-6 col-md-5">
-        <div id="darkBody">
-          {skillsAndProficiency.map((x) => (
-            <li key={x.skill}>{x.skill}</li>
-          ))}
-        </div>
-      </div>
-      <div className="bg-light col-sm-6 col-md-7">
-        <div id="skillsLevel">
-          {skillsAndProficiency.map((x) => (
-            <li key={x.skill} className="skillsBar" style={{ paddingBottom: "8px" }}>
-              <ProgressBar animated now={x.proficiency} />
-            </li>
-          ))}
-        </div>
-      </div>
       <Table id="cert-table" striped bordered hover variant="dark">
         <thead>
           <tr>
@@ -147,6 +111,19 @@ const Skills = () => {
           </tr>
         </tbody>
       </Table>
+      <br />
+      <div className="bg-dark col-sm-6 col-md-3">
+        <div id="darkBody">
+          <h3>Skills</h3>
+        </div>
+      </div>
+      <div className="bg-dark col-sm-6 col-md-3">
+        <div id="darkBody">
+          {skillsAndProficiency.map((x) => (
+            <li key={x.skill}>{x.skill}</li>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
