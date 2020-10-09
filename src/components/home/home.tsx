@@ -41,7 +41,7 @@ export default class Home extends React.Component {
           <h4 title="Click on the icon below to download">Download Resume:</h4>
           <div>
             <a
-              href="https://github.com/deadwing7x/portfolio/raw/master/src/Anubhav-Resume.PDF"
+              href="https://github.com/deadwing7x/portfolio/raw/master/src/Anubhav_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               title="Click to download"
