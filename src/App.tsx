@@ -13,6 +13,7 @@ import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import { initializeIcons } from "@uifabric/icons";
 import { Navbar } from "react-bootstrap";
+import ReactGA from 'react-ga';
 initializeIcons();
 
 export default class App extends React.Component<{}, { loading: boolean }> {
@@ -27,6 +28,14 @@ export default class App extends React.Component<{}, { loading: boolean }> {
   constructor(props: any) {
     super(props);
     this.state = { loading: true };
+  }
+
+  initializeReactGA() {
+    ReactGA.initialize('UA-180262801-1');
+    ReactGA.pageview('/');
+    ReactGA.pageview('/work-exp');
+    ReactGA.pageview('/education');
+    ReactGA.pageview('/skills');
   }
 
   loadApp() {
