@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { GApageView } from "../..";
 import "./education.css";
 
 const Education = () => {
+
+  useEffect(() => { GApageView("education"); }, []);
+  
   return (
     <div id="app-body" className="row">
       <div className="bg-dark col-sm-6 col-md-5">
