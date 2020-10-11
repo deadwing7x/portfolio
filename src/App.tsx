@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./App.css";
 import { ReactComponent as ReactLogo } from "../src/logo.svg";
 import Home from "./components/home/home";
@@ -13,10 +13,7 @@ import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import { initializeIcons } from "@uifabric/icons";
 import { Navbar } from "react-bootstrap";
-import { initGA } from ".";
 initializeIcons();
-
-useEffect(() => { initGA(); }, []);
 
 export default class App extends React.Component<{}, { loading: boolean }> {
   rowProps: IStackProps = { horizontal: true, verticalAlign: "center" };

@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
-import { GApageView } from "../..";
+import React from "react";
 import "./experience.css";
 
 const Experience = () => {
-
-  useEffect(() => { GApageView("work-exp"); }, []);
 
   return (
     <div id="app-body" className="row">

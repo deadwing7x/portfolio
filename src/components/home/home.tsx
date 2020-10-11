@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./home.css";
 import { Icon } from "office-ui-fabric-react/lib/Icon";
-import { GApageView } from "../..";
 
 const FolderIcon = () => (
   <Icon
@@ -17,8 +16,6 @@ const LinkedInIcon = () => (
     style={{ fontSize: "xx-large" }}
   />
 );
-
-useEffect(() => { GApageView(""); }, []);
 
 export default class Home extends React.Component {
   private aboutMe: string =

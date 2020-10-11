@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./skills.css";
 import { Table } from "react-bootstrap";
-import { GApageView } from "../..";
 
 const Skills = () => {
-
-  useEffect(() => { GApageView("skills"); }, []);
 
   const skillsAndProficiency: any[] = [
     {

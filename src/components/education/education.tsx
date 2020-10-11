@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
-import { GApageView } from "../..";
+import React from "react";
 import "./education.css";
 
 const Education = () => {
-
-  useEffect(() => { GApageView("education"); }, []);
   
   return (
     <div id="app-body" className="row">
