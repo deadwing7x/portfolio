@@ -109,6 +109,20 @@ const Skills = () => {
             <td>EF SET</td>
             <td>September 2020</td>
           </tr>
+          <tr>
+            <td>
+              <a
+                className="cert-link"
+                href="https://mcptnc.microsoft.com/transcript"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Microsoft Certified: Power Platform Fundamentals
+              </a>
+            </td>
+            <td>Microsoft</td>
+            <td>October 2020</td>
+          </tr>
         </tbody>
       </Table>
       <br />
