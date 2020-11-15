@@ -26,11 +26,11 @@ const SideNav = () => {
             <br />
             <h5>Anubhav Sarkar</h5>
             <span title="Email">
-              <MailIcon /><a className="call-email-links" href="mailto:anubhavsarkar7@gmail.com">anubhavsarkar7@gmail.com</a>
+              <MailIcon /><a id="email-links" href="mailto:anubhavsarkar7@gmail.com"> anubhavsarkar7@gmail.com</a>
             </span>
             <br />
             <span title="Mobile Phone">
-              <PhoneIcon /><a className="call-email-links" href="tel:+91-7986671574">+91-7986671574</a>
+              <PhoneIcon /><a id="call-links" href="tel:+91-7986671574"> +91-7986671574</a>
             </span>
             <br />
             <span>

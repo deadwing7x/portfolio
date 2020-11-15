@@ -9,7 +9,7 @@
     margin-left: 15px;
 }
 
-.call-email-links {
+#email-links, #call-links {
     cursor: pointer;
     text-decoration: none;
 }
