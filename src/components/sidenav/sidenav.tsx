@@ -2,11 +2,13 @@ import React from "react";
 import "./sidenav.css";
 import { Image, Nav } from "react-bootstrap";
 import { Icon } from "office-ui-fabric-react/lib/Icon";
+import profilePicture from '../../profile.jpg';
 
 const MailIcon = () => <Icon iconName="Mail" className="ms-IconMail" />;
 const PhoneIcon = () => <Icon iconName="CellPhone" className="ms-IconPhone" />;
 const LocationIcon = () => <Icon iconName="POISolid" className="ms-IconLocation" />;
 const WorkIcon = () => <Icon iconName="Work" className="ms-IconWork" />;
+
 
 const SideNav = () => {
   return (
@@ -16,7 +18,7 @@ const SideNav = () => {
         <Nav.Item>
           <Image
             id="profilePicture"
-            src={require("../../profile.jpg")}
+            src={profilePicture}
             thumbnail
             alt="Profile Picture"
           />
