@@ -30,7 +30,12 @@ const Experience = () => {
       <div className="bg-dark col-sm-6 col-md-3">
         <div id="darkBody">
           <li className="work-list">
-            <h6>Software Developer Intern</h6>
+            <h6>Software Developer Intern (Oct, 2019 - Sep, 2020)</h6>
+          </li>
+        </div>
+        <div id="darkBody">
+          <li className="work-list">
+            <h6>Software Engineer 1 (Oct, 2020 - Present)</h6>
           </li>
         </div>
       </div>
