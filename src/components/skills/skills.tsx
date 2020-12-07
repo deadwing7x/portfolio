@@ -57,7 +57,7 @@ const Skills = () => {
             <td>
               <a
                 className="cert-link"
-                href="https://mcptnc.microsoft.com/transcript"
+                href="https://www.youracclaim.com/earner/earned/badge/73863f22-fcbf-488d-9c67-3e1c7b5f9fa2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +71,7 @@ const Skills = () => {
             <td>
               <a
                 className="cert-link"
-                href="https://mcptnc.microsoft.com/transcript"
+                href="https://www.youracclaim.com/earner/earned/badge/391bf600-3281-4794-b48d-e76df07e0481"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,7 +113,7 @@ const Skills = () => {
             <td>
               <a
                 className="cert-link"
-                href="https://mcptnc.microsoft.com/transcript"
+                href="https://www.youracclaim.com/earner/earned/badge/e339bcdd-826a-4420-af8c-50eeb0ca546e"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -122,6 +122,20 @@ const Skills = () => {
             </td>
             <td>Microsoft</td>
             <td>October 2020</td>
+          </tr>
+          <tr>
+          <td>
+              <a
+                className="cert-link"
+                href="https://www.youracclaim.com/badges/8cb18fce-b55f-406b-98b2-721f189c4caf/public_url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Microsoft Certified: Azure Developer Associate
+              </a>
+            </td>
+            <td>Microsoft</td>
+            <td>December 2020</td>
           </tr>
         </tbody>
       </Table>
