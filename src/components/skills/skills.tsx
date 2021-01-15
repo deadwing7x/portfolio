@@ -6,13 +6,7 @@ const Skills = () => {
 
   const skillsAndProficiency: any[] = [
     {
-      skill: "C++"
-    },
-    {
       skill: "C#"
-    },
-    {
-      skill: "Angular"
     },
     {
       skill: "React"
